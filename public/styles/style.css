@@ -307,3 +307,34 @@ a img{
 }
 
 
+/*mobile menu*/
+#menu {
+    display: none;
+}
+
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+#modale div{
+    font-size: 25pt;
+    padding: 10px;
+}
+
+#modale div a{
+    color: rgba(8,48,85,255);
+    text-decoration: none;
+}
+#modale div a:hover{
+    color: rgba(1,143,182,255);    
+}
+@media (max-width: 700px) {
+    #links {
+      display: none;
+    }
+    #menu {
+      display: block;
+    }
+}
