@@ -22,7 +22,6 @@
               </div>
               
               <div id="links">
-                <a href="">Home</a>
                 <a href="{{asset('login_signup')}}">SIGN-UP/LOGIN</a>
               </div>
               <!-- menu tre trattini versione mobile-->

@@ -11,6 +11,7 @@
             const BASE_URL = "{{url('/')}}";
         </script>
         <script src="{{asset('scripts/covid.js')}}" defer="true"></script>
+        <script src="{{asset('scripts/mobile.js')}}" defer="true"></script>
         <script src="{{asset('scripts/load_home.js')}}" defer="true"></script>
         <script src="{{asset('scripts/search.js')}}" defer="true"></script>
     </head>
@@ -36,6 +37,13 @@
                 </div>
                 @endif
               </div>
+
+              <!-- menu mobile -->
+              <div id="menu">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div> 
             </nav>
             <h1>
               <em>Il turismo riparte!</em><br/>
